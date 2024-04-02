@@ -2,13 +2,19 @@ import styled from "styled-components";
 import { MenuDropdownProps } from "./types";
 
 export const MenuDropdown = styled.nav<MenuDropdownProps>`
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+  }
   ul {
     list-style: none;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
     li {
       display: block;
       width: 100%;
-      padding: 5px;
+      padding: 5px 5px 0 5px;
       a {
         text-decoration: none;
       }

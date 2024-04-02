@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 export const MenuContainer = styled.nav`
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+  }
   max-width: 150px;
   display: flex;
   flex-direction: column; //Contendor del menu
